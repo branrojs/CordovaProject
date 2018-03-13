@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/petshop.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="a">
+		<!-- panel -->
+		<div data-role="panel" id="mypanel" data-position="left" data-display="overlay">
+
+		   <a href="#" class="ui-btn">Inicio</a>
+		   <a href="#mypanel" class="ui-btn">Catalogo</a>
+		   <a href="#mypanel" class="ui-btn">Chat</a>
+
+		</div>
+		<div data-role="panel" id="chat" data-position="right" data-display="reveal">
+
+		   
+
+		</div>
+		<!-- /panel -->
+
+		<!-- header -->
+		<div data-role="header" data-position="inline">
+			<a href="#mypanel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext"></a><!-- panel opener -->
+			<h1>Anaby Petshop</h1>
+			<a href="#chat" class="ui-btn ui-shadow ui-corner-all ui-icon-comment ui-btn-icon-notext"></a><!-- panel opener -->
+		</div>
+		<!-- /header -->
+
+		
+
+		<!-- content -->
+		<div data-role="content" data-theme="a">
+
+			<p>Bienvenido a la apertura de nuestra tienda!</p>
+
+			<p>Por ahora solo tenemos ropa para perro, puedes pasar a ver nuestro catalogo justo aca</p>
+			<a href="#" class="ui-link">Catalogo</a>.
+			
+			
+		</div>
+		<!-- content -->
+	</div>
+</body>
+</html>
